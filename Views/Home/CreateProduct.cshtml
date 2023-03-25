@@ -1,0 +1,9 @@
+﻿@model (Product product, User user)
+<h1>Create</h1>
+<form asp-action="CreateProduct" asp-controller="Home" method="post">
+    <input type="text" asp-for="product.Name" placeholder="Prodact name "/>
+    <br/>
+    <input type="text" asp-for="user.Name" placeholder="User name "/>
+    <button>Gonder</button>
+
+</form>
